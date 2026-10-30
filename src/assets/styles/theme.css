@@ -1,0 +1,116 @@
+@theme {
+  /* ============================================================
+     TYPOGRAPHIE
+     ============================================================ */
+  /** police par defaut */
+  --font-sans: 'Manrope', system-ui, -apple-system, sans-serif;
+  /** police pour les titres */
+  --font-display: 'Manrope', Georgia, serif;
+
+  /* ============================================================
+     SURFACES — fonds neutres (blanc cassé → noir profond)
+     ============================================================ */
+  --color-surface-0: #ffffff; /* cartes, panels, modales */
+  --color-surface-50: #f6f7f2; /* ⬅️ FOND PRINCIPAL DE L'APP */
+  --color-surface-100: #eef0e8; /* fond secondaire, hover léger */
+  --color-surface-200: #e2e5da; /* bordures, séparateurs */
+  --color-surface-300: #c9cdbf; /* bordures plus marquées */
+  --color-surface-400: #9aa093; /* texte désactivé */
+  --color-surface-500: #6b7266; /* texte secondaire */
+  --color-surface-600: #4a4f46; /* texte courant */
+  --color-surface-700: #33372f; /* titres */
+  --color-surface-800: #1f231c; /* titres forts */
+  --color-surface-900: #12140f; /* texte principal */
+  --color-surface-950: #0a0b08; /* noir profond (dark mode) */
+
+  /* ============================================================
+     PRIMARY — vert de marque (colonne vertébrale du design)
+     ============================================================ */
+  --color-primary-50: #f0f9f1;
+  --color-primary-100: #dcf1df;
+  --color-primary-200: #b9e3c1;
+  --color-primary-300: #8fd0a0;
+  --color-primary-400: #6bbd80;
+  --color-primary-500: #4caf6a; /* ⬅️ COULEUR DE MARQUE */
+  --color-primary-600: #3a9156;
+  --color-primary-700: #2f7546;
+  --color-primary-800: #265c39;
+  --color-primary-900: #1e4a2e;
+  --color-primary-950: #0f2a19;
+
+  /* ============================================================
+     ACCENT — pêche / abricot (CTA secondaires, highlights)
+     ============================================================ */
+  --color-accent-50: #fff8f0;
+  --color-accent-100: #ffeede;
+  --color-accent-200: #ffd9b8;
+  --color-accent-300: #ffc48f;
+  --color-accent-400: #f9b075;
+  --color-accent-500: #f59e5b; /* ⬅️ ACCENT PRINCIPAL */
+  --color-accent-600: #e0843f;
+  --color-accent-700: #b86a2f;
+  --color-accent-800: #8f5224;
+  --color-accent-900: #6b3d1a;
+
+  /* ============================================================
+     ÉTATS — conventions Tailwind (success / warning / info / error)
+     Volontairement doux, jamais agressifs
+     ============================================================ */
+  --color-success-50: #f0f9f1;
+  --color-success-100: #dcf1df;
+  --color-success-500: #4caf6a; /* sur la bonne voie */
+  --color-success-600: #3a9156;
+  --color-success-700: #2f7546;
+  --color-success-800: #265c39;
+
+  --color-warning-50: #fef9ec;
+  --color-warning-100: #fdf0cf;
+  --color-warning-500: #f2b84b; /* à ajuster, sans drame */
+  --color-warning-600: #d99e2e;
+  --color-warning-700: #a87a22;
+  --color-warning-800: #7a5818;
+
+  --color-info-50: #eff7fc;
+  --color-info-100: #d9ecf7;
+  --color-info-500: #6aa5d8; /* information */
+  --color-info-600: #4a8ac2;
+  --color-info-700: #356b99;
+  --color-info-800: #264e70;
+
+  --color-danger-50: #fdf2f2;
+  --color-danger-100: #fbe0e0;
+  --color-danger-500: #e07a7a; /* erreur (rouge doux) */
+  --color-danger-600: #c95a5a;
+  --color-danger-700: #a34444;
+  --color-danger-800: #7d3333;
+
+  /* ============================================================
+     MACRONUTRIMENTS — couleurs métier (graphiques nutritionnels)
+     ============================================================ */
+  --color-macro-protein: #7c9de8;
+  --color-macro-carbs: #f2b84b;
+  --color-macro-fat: #e88fa5;
+  --color-macro-fiber: #7cc79a;
+
+  /* ============================================================
+     RAYONS
+     ============================================================ */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-card: 1rem;
+  --radius-pill: 999px;
+
+  /* ============================================================
+     OMBRES
+     ============================================================ */
+  --shadow-card: 0 1px 3px rgb(0 0 0 / 0.06), 0 4px 12px rgb(0 0 0 / 0.04);
+  --shadow-elevated: 0 4px 6px rgb(0 0 0 / 0.05), 0 10px 24px rgb(0 0 0 / 0.08);
+
+  /* ============================================================
+     TRANSITIONS
+     ============================================================ */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+}

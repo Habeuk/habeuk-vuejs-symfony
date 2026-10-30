@@ -1,0 +1,55 @@
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-surface-50 text-surface-900;
+    @apply dark:bg-surface-950 dark:text-surface-0;
+    @apply font-sans antialiased;
+    @apply text-sm;
+    min-height: 100vh;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-display text-surface-900 dark:text-surface-0;
+  }
+
+  a {
+    @apply text-primary-600 hover:text-primary-700 hover:underline;
+    transition: color var(--transition-fast);
+  }
+
+  /* Focus visible cohérent partout */
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-primary-500;
+  }
+
+  /* Scrollbar discrète */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-surface-100 dark:bg-surface-900;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-surface-300 dark:bg-surface-700 rounded-full;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-surface-400 dark:bg-surface-600;
+  }
+
+  /* Sélection de texte */
+  ::selection {
+    @apply bg-primary-200 text-surface-900;
+  }
+}

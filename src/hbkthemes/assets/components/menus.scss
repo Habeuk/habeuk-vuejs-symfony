@@ -1,0 +1,39 @@
+.hbk-panel-menu {
+  // gap: 0;
+  margin: 0 10px;
+  .p-panelmenu-panel {
+    padding: 0;
+    border-radius: 0;
+    border: 0;
+    background: transparent;
+    color: #fff;
+    .p-panelmenu-item-content {
+      background: transparent !important;
+      &:hover {
+        background: transparent !important;
+      }
+    }
+    .p-panelmenu-header-content {
+      background: transparent !important;
+      &:hover {
+        background: transparent !important;
+      }
+    }
+    .nav-item {
+      border-radius: 5px;
+      &.is-active {
+        background: rgba(255, 255, 255, 0.0775);
+        background: linear-gradient(45deg, rgba(255, 255, 255, 0.102) 40%, rgba(0, 0, 0, 0.102));
+      }
+      .nav-link {
+        padding: 10px;
+      }
+      .menu-icon {
+        color: rgba(255, 252, 252, 0.4);
+        &.active {
+          color: rgba(255, 252, 252, 0.925);
+        }
+      }
+    }
+  }
+}

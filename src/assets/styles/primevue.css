@@ -1,0 +1,40 @@
+:root {
+  /* ===== VARIABLES DE DESIGN ===== */
+  --hbk-field-padding-y: 0.75rem;
+  --hbk-field-padding-x: 0.75rem;
+  --hbk-field-radius: 10px;
+  --hbk-button-radius: 10px;
+}
+
+/* ===== BOUTONS ===== */
+.p-button {
+  @apply text-base;
+  --p-button-padding-y: var(--hbk-field-padding-y);
+  --p-button-padding-x: 1rem;
+  --p-button-label-font-weight: 600;
+  --p-button-border-radius: var(--hbk-button-radius);
+}
+
+.p-button.p-button-sm {
+  --p-button-padding-y: 0.375rem;
+  --p-button-padding-x: 0.75rem;
+}
+
+.p-button.p-button-lg {
+  --p-button-padding-y: 0.875rem;
+  --p-button-padding-x: 1.5rem;
+  --p-button-font-size: 1.125rem;
+}
+
+/* ===== CHAMPS DE FORMULAIRE ===== */
+.p-inputtext,
+.p-password input,
+.p-select,
+.p-textarea,
+.p-inputnumber input {
+  @apply text-base;
+  --p-form-field-padding-x: var(--hbk-field-padding-x);
+  --p-form-field-padding-y: var(--hbk-field-padding-y);
+  --p-form-field-border-radius: var(--hbk-field-radius);
+  --p-inputtext-padding-y: var(--hbk-field-padding-y);
+}

@@ -1,0 +1,85 @@
+/* ============================================================
+   MANROPE — Police principale de Nutribguide
+   Licence : SIL Open Font License 1.1 (voir OFL.txt)
+   ============================================================ */
+
+/* Thin — 100 */
+/*
+@font-face {
+  font-family: 'Manrope';
+  src:
+    url('./manrope/manrope-thin.woff2') format('woff2'),
+    url('./manrope/manrope-thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+*/
+
+/* Light — 300 */
+@font-face {
+  font-family: 'Manrope';
+  src:
+    url('./manrope/manrope-light.woff2') format('woff2'),
+    url('./manrope/manrope-light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Regular — 400 */
+@font-face {
+  font-family: 'Manrope';
+  src:
+    url('./manrope/manrope-regular.woff2') format('woff2'),
+    url('./manrope/manrope-regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Medium — 500 */
+@font-face {
+  font-family: 'Manrope';
+  src:
+    url('./manrope/manrope-medium.woff2') format('woff2'),
+    url('./manrope/manrope-medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* SemiBold — 600 */
+@font-face {
+  font-family: 'Manrope';
+  src:
+    url('./manrope/manrope-semibold.woff2') format('woff2'),
+    url('./manrope/manrope-semibold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Bold — 700 */
+@font-face {
+  font-family: 'Manrope';
+  src:
+    url('./manrope/manrope-bold.woff2') format('woff2'),
+    url('./manrope/manrope-bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ExtraBold — 800
+/*
+@font-face {
+  font-family: 'Manrope';
+  src:
+    url('./manrope/manrope-extrabold.woff2') format('woff2'),
+    url('./manrope/manrope-extrabold.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+*/

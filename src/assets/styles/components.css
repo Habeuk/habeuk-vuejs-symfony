@@ -1,0 +1,5 @@
+@layer components {
+  .card-base {
+    @apply rounded-card border border-surface-200 p-4 shadow-sm;
+  }
+}
